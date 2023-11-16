@@ -25,23 +25,28 @@ const myCV = {
     skills: [
         {
             title: 'Programming',
-            value: ['Html', 'Css', 'PHP', 'Javascrip', 'TypeScript']
+            value: ['Html', 'Css', 'PHP', 'Javascrip', 'TypeScript'],
+            rating: 4
         },
         {
             title: 'Framework',
-            value: ['React', 'Vue', 'Laravel', 'Wordpress']
+            value: ['React', 'Vue', 'Laravel', 'Wordpress'],
+            rating: 4
         },
         {
             title: 'Database',
-            value: ['MySQL', 'SQL', 'MongoDB']
+            value: ['MySQL', 'SQL', 'MongoDB'],
+            rating: 4
         },
         {
             title: 'Language',
-            value: ['English (Equivalent to TOEIC 400)']
+            value: ['English (Equivalent to TOEIC 400)'],
+            rating: 3
         },
         {
             title: 'Soft skills',
-            value: ['Group work', 'presentations']
+            value: ['Group work', 'presentations'],
+            rating: 4
         }
     ],
     educations: [
