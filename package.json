@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Congminh7799.github.io/my-app",
+  "homepage": "https://Congminh7799.github.io/My-CV",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
