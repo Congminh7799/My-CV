@@ -15,9 +15,7 @@ const WorkExperience = ({ workExperience }: { workExperience: WorkExperience }) 
                 {
                     workExperience.descriptions.map(function (item: string, index: number) {
                         return (
-                            <>
-                                <li key={index}>{item}</li>
-                            </>
+                            <li key={index}>{item}</li>
                         );
                     })
                 }

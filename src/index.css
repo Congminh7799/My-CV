@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-p{
+p {
     padding-bottom: 10px;
 }

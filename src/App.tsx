@@ -16,7 +16,7 @@ import myCv from './datas/my-cv.ts'
 function App() {
   return (
     <div className='container mx-auto px-[18rem] py-[5rem] bg-gray-500/10 justify-center xl:flex contents'>
-      <div className='layout-wrapper lg:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] pt-[1rem] pb-[3rem] bg-white rounded inline-block'>
+      <div className='layout-wrapper lg:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] pt-[1rem] pb-[3rem] bg-white rounded inline-block'>
 
         <section className='md:flex'>
           <div className='col-left basis-full md:basis-3/5'>
@@ -56,7 +56,7 @@ function App() {
           </div>
           <div className='col-right basis-full md:basis-2/5'>
             <div className='px-[1rem] mt-10'>
-              <BorderLinear boldLength={50} title='SKILLS' />
+              <BorderLinear boldLength={70} title='SKILLS' />
               {
                 myCv.skills.map(function (skill: TypeSkill, index: number) {
                   return <Skill skill={skill} key={index} hideBorder={index === myCv.skills.length - 1} />
@@ -64,7 +64,7 @@ function App() {
               }
             </div>
             <div className='px-[1rem] mt-10'>
-              <BorderLinear boldLength={50} title='HONORS & AWARDS' />
+              <BorderLinear boldLength={70} title='HONORS & AWARDS' />
               {
                 myCv.honors_awards.map(function (honorsAward: TypeHonorsAward, index: number) {
                   return <HonorsAward honorsAward={honorsAward} key={index} />
