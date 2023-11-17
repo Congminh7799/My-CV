@@ -5,7 +5,7 @@ const Information = ({ birthDay, gender, contact }: { birthDay: string, gender: 
         <>
             <div className="md:text-right mt-10 md:mt-0">
                 <Content title="Gender"  value={gender} />
-                <Content title="Date of birt"  value={birthDay} />
+                <Content title="Date of birth"  value={birthDay} />
                 {
                     contact ?
                         contact.map(function (item: any, index: number) {

@@ -15,7 +15,7 @@ import myCv from './datas/my-cv.ts'
 
 function App() {
   return (
-    <div className='container mx-auto px-[18rem] py-[5rem] bg-gray-500/10 justify-center xl:flex contents'>
+    <div className='container mx-auto px-[18rem] py-[5rem] justify-center xl:flex contents'>
       <div className='layout-wrapper lg:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] pt-[1rem] pb-[3rem] bg-white rounded inline-block'>
 
         <section className='md:flex'>
